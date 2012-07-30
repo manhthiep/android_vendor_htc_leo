@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/htc/leo/proprietary/libcamera.so:obj/lib/libcamera.so
+        vendor/htc/leo/proprietary/libcamera.so:obj/lib/libcamera.so
 
 # All the blobs necessary for leo
 PRODUCT_COPY_FILES += \
@@ -51,3 +51,4 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/leo/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
 	vendor/htc/leo/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	vendor/htc/leo/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so
+
